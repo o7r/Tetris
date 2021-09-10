@@ -56,7 +56,7 @@ public class Controller extends JPanel {
                 Field.getInstance().getTetromino().hardDrop();
             }
         }));
-        add(new CustomButton("Soft Drop", e -> {
+        add(new CustomButton("One Drop", e -> {
             if(tetrominoIsExist()) {
                 Field.getInstance().getTetromino().oneDrop();
             }
