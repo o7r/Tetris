@@ -99,7 +99,6 @@ public final class Field extends JPanel{
         this.fieldBlocks = new Color[lengthX][lengthY];
         this.tetromino = null;
         repaint();
-        //this.timer.setDelay(100);
     }
 
     public boolean isAllValidArrayIndexInField(Tetromino.IndexOf2DArray... indexes) {
