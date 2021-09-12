@@ -36,7 +36,7 @@ public final class Field extends JPanel{
         setLocation(20, 20);
 
         this.timer = new Timer(1000, e -> {
-            //テトロミノを一つ下に下げる。もしそれができなければ新しいテトロミノの生成とそれに伴う処理を実行。
+            //一定時間ごとにテトロミノを一つ下に下げる。もしそれができなければ新しいテトロミノの生成とそれに伴う処理を実行。
             if(!this.tetromino.oneDrop()) {               
                 nextTetrominoProcess();
             }
