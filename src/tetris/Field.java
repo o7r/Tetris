@@ -32,7 +32,7 @@ public final class Field extends JPanel{
 
     private Field() {
         setBackground(ColorManager.THIN);
-        setSize(blockSize * lengthX + 1, blockSize * 24 + 1);
+        setSize(blockSize * lengthX + 1, blockSize * lengthY + 1);
         setLocation(20, 20);
 
         this.timer = new Timer(1000, e -> {
